@@ -33,25 +33,6 @@ You will find the test report in the reports folder.(report.html)
 
   
 # Project Info
-.
-├── package-lock.json
-├── package.json
-├── reports
-│   └── report.html
-├── testcases
-│   ├── api
-│   │   └── product
-│   │       ├── Product.js
-│   │       ├── data
-│   │       │   ├── basic.js
-│   │       │   ├── case-invalid-response.js
-│   │       │   └── case-normal-request.js
-│   │       └── product-spec.js
-│   └── shared
-│       ├── HttpClient.js
-│       ├── Response.js
-│       └── StatusCode.js
-└── README.md
 
 All important things are in the testcases folder:
 
@@ -75,3 +56,4 @@ All important things are in the testcases folder:
 # Report Demo
 
 [Report](https://drive.google.com/open?id=1kOz34P81o0Cx3jeDpC0Gu9s5GzHfDtxH)
+
