@@ -23,7 +23,7 @@ npm install
 npm test
 
 ```  
-if You want get a html report, please run:
+if you want get a html report, please run:
 ``` shell
 
 npm run test-r
