@@ -1,0 +1,19 @@
+{
+  "name": "api-test",
+  "version": "0.0.1",
+  "description": "API test for WG",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha testcases/**/*-spec.js --reporter spec --exit",
+    "test-r": "mocha testcases/**/*-spec.js --reporter mocha-simple-html-reporter --reporter-options output=./reports/report.html --exit"
+  },
+  "author": "Shiwei Sun",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mocha-data-driven": "^1.0.1",
+    "mocha-simple-html-reporter": "^1.1.0",
+    "supertest": "^4.0.2"
+  }
+}
