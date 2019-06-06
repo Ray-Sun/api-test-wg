@@ -1,7 +1,7 @@
 
 # Before
 
-Make sure you have npm
+Make sure you have nodejs&npm
 
 # Run Test
 
